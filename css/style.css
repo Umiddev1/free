@@ -1,0 +1,150 @@
+*,*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F2F2F2;
+}
+.group {
+    justify-content: center;
+    position: relative;
+    top:300px;
+}
+.wait-group-content {
+    width: 276px;
+    height: 446px;
+    padding-top:80px;
+    padding-left: 78px;
+    padding-right: 78px;
+    padding-bottom: 246px;
+    background: #FFD500;
+    border-radius: 21.25px 0px 0px 21.25px;
+}
+.title {
+    width: 170px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    color: #383838;
+    margin-top: 57px;
+    position: relative;
+    right: 25px;
+}
+.text {
+    width: 175px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+    color: #383838;
+    margin-top: 10px;
+    position: relative;
+    right: 20px;
+}
+.right-img {
+    margin-top: 38px;
+    margin-left: 50px;
+}
+.group-inp {
+    margin-top: 10px;
+}
+.inp {
+    padding: 9px 50px 9px 10px;
+    border: none;
+    background: #F5F8F9;
+    border-radius: 2.64604px;
+    margin-left: 27px;
+}
+.lb {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    color: #373D40;
+    margin-right: auto;
+}
+.check  {
+    display: none;
+}
+.label-male {
+    margin-left: 90px;
+}
+.label-male::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/bx-male-sign.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer;
+}
+.group-form {
+    background-color: #fff;
+    padding-right: 50px;
+    border-radius: 0 21px 21px 0;
+}
+form {
+    margin-left: 71px; 
+    margin-top: 53px;
+}
+.label-fmale {
+    margin-left: 50px;
+}
+.label-fmale::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/bx-female-sign.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer;
+}
+.gender-span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 9px;
+    display: flex;
+    align-items: flex-end;
+    color: #B1BFCD;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.mem-span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 9px;
+    display: flex;
+    align-items: flex-end;
+    color: #373D40;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.mem-span::before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    background-image: url("../img/Group.svg");
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    margin-left: 5px;
+}
